@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+
+
+<body>
+    <ul>
+      {% for i in all_items %}
+      <li>{{i.content}} ---- {{i.translated_data}} ---- {{i.language}}
+      </li>
+      {% endfor %}
+    </ul>
+
+</body>
+</html>
